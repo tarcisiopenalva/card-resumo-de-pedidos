@@ -19,6 +19,7 @@ main {
     background-color: #FFF;
     border-radius: 16px;
     max-width: 416px;
+    height: 80vh;
 }
 
 main img {
@@ -26,11 +27,24 @@ main img {
     border-radius: 16px 16px 0 0; 
 }
 
-main .informations {
+main section h1 {
+    margin: 20px 0;
+    text-align: center;
+}
+.descripiton {
     display: flex;
-    
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 32px 32px 32px;
+    color: hsl(224, 23%, 55%)
+}
+
+.informations {
+    display: flex;
+    justify-content: space-around;   
 }
 
 main .music-price {
-    width: 48px;
+    width: 50px;
 }
+
