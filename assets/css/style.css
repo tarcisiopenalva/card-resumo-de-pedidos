@@ -5,8 +5,10 @@
 }
 
 body {
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-size:;
     font-family: 'Red Hat Display';
-    background-color: hsl(228, 100%, 98%);
+    background-color: #D6E1FF;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -53,7 +55,7 @@ main .informations {
     justify-content: space-between;
     background: hsl(225, 100%, 98%);
     width: 100%;
-    border-radius: 16px;
+    border-radius: 12px;
     padding: 24px 16px;
     margin: 32px 0;
 }
@@ -61,7 +63,7 @@ main .informations {
 main .informations .music-price {
     display: flex;
     align-items: center;
-    width: 55px;
+    width: 48px;
     margin-right: -84px;
 }
 
@@ -74,9 +76,39 @@ main .informations a {
     text-decoration: none;
     color: hsl(245, 75%, 52%);
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
 }
 main .informations a:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+main button {
+    background: hsl(245, 75%, 52%);
+    color: #ffffff;
+    font-weight: 600;
+    width: 100%;
+    padding: 16px 0;
+    border-radius: 12px;
+    margin-bottom: 32px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 20px 20px rgba(56, 42, 225, 0.2);
+}
+
+main button:hover {
+    background: #766CF1;
+}
+
+#cancel-order {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 32px;
+}
+
+#cancel-order:hover {
     color: hsl(223, 47%, 23%);
 }
 
